@@ -29,7 +29,7 @@ screen = pygame.display.set_mode((600,600))
 pygame.display.set_caption('Snake')
 
 # Cobra
-snake = [(200, 200), (200, 200), (220, 200)]
+snake = [(200, 200), (210, 200), (220, 200)]
 snake_skin = pygame.Surface((10,10))
 snake_skin.fill((255,255,255))
 
